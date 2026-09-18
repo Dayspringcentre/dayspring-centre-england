@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dayspring-centre-england-levi-b251.vercel.app/sitemap.xml
