@@ -18,11 +18,11 @@
 4. Add only approved real team biographies, photographs, testimonials, partnerships and verified vacancies. Current imagery is illustrative.
 5. Connect a business-owned domain when available, then update `SITE` in `tools/build.py` and regenerate the sitemap/canonical metadata.
 
-## Current approved corrections
+## Current approved requirements
 
-The September 2026 correction document updates coverage to Bexley, Bromley, Lewisham and Kent, and the telephone number to 07596 510845. The latest direct instruction requires lowercase dayspring centre branding throughout. ICO Data Protection Registration No. 00014845068 has been added as supplied by the business, without claiming independent verification. Childcare registration remains EY552018 and is distinct from adult services and consultancy.
+The latest direct instruction supersedes previous branding, phone and local coverage requirements. Use Dayspring Centre, telephone +447519560119 and Serving: England. The registered office remains in Sidcup. Service suitability, availability and any travel arrangements are confirmed individually. ICO reference 00014845068 and childcare registration EY552018 remain as supplied by the owner; no inspection rating is claimed.
 
-The homepage now shows an illustrative children-at-play image with a gentle pan/zoom effect, a pause control and reduced-motion support. It is an animated photograph, not a recorded video of service users. A public complaints procedure explains the review journey and provides an appropriate route to request the full organisational policy. No response deadlines were invented.
+The new logo combines a sunrise and welcoming hands, with the exact Dayspring Centre wordmark. Downloadable SVG and transparent PNG versions are provided in assets/dayspring-centre-logo.zip and through the website footer. The homepage retains the children-at-play photograph with gentle motion, a pause control and reduced-motion support. A public complaints procedure is provided; the full organisational policy can be added when supplied.
 
 ## Public references
 

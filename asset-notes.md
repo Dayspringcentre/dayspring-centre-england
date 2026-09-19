@@ -1,6 +1,6 @@
 # Image provenance
 
-The photographs were generated with the built-in image-generation tool for this website and optimised as JPEGs. They are illustrative, not actual dayspring staff, premises or service users. This is disclosed in the website footer.
+The photographs were generated with the built-in image-generation tool for this website and optimised as JPEGs. They are illustrative, not actual Dayspring Centre staff, premises or service users. This is disclosed in the website footer.
 
 ## assets/care-hero.jpg
 
