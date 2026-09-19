@@ -58,17 +58,17 @@
       event.preventDefault();
       if (!form.reportValidity()) return;
       const data = new FormData(form);
-      const text = ['dayspring centre — conversation summary', 'Prepared locally. NOT submitted to dayspring.', '',
+      const text = ['Dayspring Centre — conversation summary', 'Prepared locally. NOT submitted to dayspring.', '',
         'Enquiry: ' + select.options[select.selectedIndex].text,
         ...[['name','Name'],['organisation','Organisation'],['phone','Telephone'],['email','Email'],['area','Area'],['preferred','Preferred contact'],['message','Discussion points']].map(([key,label]) => label + ': ' + (data.get(key) || 'Not provided')),
-        '', 'Call 07596 510845 to discuss the next step.'].join('\n');
+        '', 'Call +447519560119 to discuss the next step.'].join('\n');
       const result = form.querySelector('.form-result'); result.replaceChildren();
       const heading = document.createElement('h3'); heading.textContent = 'Your summary is ready — it has not been sent.';
       const copy = document.createElement('p'); copy.textContent = 'Open the draft in your email app, review it and press Send there. If no email app opens, download your summary and email it to dayspringcentre@dayspringcentre.co.uk, or call us. Please arrange any sensitive information sharing separately.';
       const preview = document.createElement('pre'); preview.textContent = text;
       const download = document.createElement('button'); download.type = 'button'; download.className = 'button outline'; download.textContent = 'Download my summary';
       download.addEventListener('click', () => { const url = URL.createObjectURL(new Blob([text], { type: 'text/plain;charset=utf-8' })); const a = document.createElement('a'); a.href = url; a.download = 'dayspring-conversation-summary.txt'; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000); });
-      const call = document.createElement('a'); call.className = 'button'; call.href = 'tel:+447596510845'; call.textContent = 'Call dayspring';
+      const call = document.createElement('a'); call.className = 'button'; call.href = 'tel:+447519560119'; call.textContent = 'Call Dayspring Centre';
       const email = document.createElement('a'); email.className = 'button'; email.textContent = 'Open email draft'; email.href = 'mailto:dayspringcentre@dayspringcentre.co.uk?subject=' + encodeURIComponent('Website enquiry: ' + select.options[select.selectedIndex].text) + '&body=' + encodeURIComponent(text);
       result.append(heading, copy, preview, email, download, call); result.hidden = false; result.scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block:'center'});
     });
