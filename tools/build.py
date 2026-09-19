@@ -4,7 +4,7 @@ import json
 
 ROOT = Path(__file__).resolve().parent.parent
 PHONE = '07519 560119'
-SITE = 'https://dayspring-centre-england-levi-b251.vercel.app'
+SITE = 'https://dayspring-centre-england.vercel.app'
 icons = {
 'heart':'<path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/>',
 'sprout':'<path d="M12 22V12M12 15C3 15 3 8 3 4c7 0 9 4 9 8M12 12c0-6 4-9 9-9 0 7-3 10-9 10"/>',
