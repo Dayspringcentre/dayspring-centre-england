@@ -18,9 +18,11 @@
 4. Add only approved real team biographies, photographs, testimonials, partnerships and verified vacancies. Current imagery is illustrative.
 5. Connect a business-owned domain when available, then update `SITE` in `tools/build.py` and regenerate the sitemap/canonical metadata.
 
-## PRD adaptations
+## Current approved corrections
 
-The user's direct instruction to cover England takes precedence over the brief's narrower area examples. Sidcup, Bexley, Bromley, Lewisham and Kent remain local roots, while availability is confirmed individually. There is no WhatsApp button because monitoring was not confirmed. Detailed health/referral data is not collected without an approved secure handling route. No invented team or testimonials are displayed. Regions are listed accessibly rather than relying on an interactive third-party map.
+The September 2026 correction document updates coverage to Bexley, Bromley, Lewisham and Kent, and the telephone number to 07596 510845. The latest direct instruction requires lowercase dayspring centre branding throughout. ICO Data Protection Registration No. 00014845068 has been added as supplied by the business, without claiming independent verification. Childcare registration remains EY552018 and is distinct from adult services and consultancy.
+
+The homepage now shows an illustrative children-at-play image with a gentle pan/zoom effect, a pause control and reduced-motion support. It is an animated photograph, not a recorded video of service users. A public complaints procedure explains the review journey and provides an appropriate route to request the full organisational policy. No response deadlines were invented.
 
 ## Public references
 

@@ -1,6 +1,6 @@
 # Image provenance
 
-Both photographs were generated with the built-in image-generation tool for this website and optimised as JPEGs. They are illustrative, not actual DaySpring staff, premises or service users. This is disclosed in the website footer.
+The photographs were generated with the built-in image-generation tool for this website and optimised as JPEGs. They are illustrative, not actual dayspring staff, premises or service users. This is disclosed in the website footer.
 
 ## assets/care-hero.jpg
 
@@ -13,3 +13,8 @@ Prompt: Photorealistic editorial lifestyle photograph, portrait 4:5 crop for Bri
 ## assets/brand.svg
 
 Original code-native sunrise symbol in the PRD teal/gold palette, created specifically for this website.
+
+## assets/children-play-hero.jpg
+
+Homepage replacement, September 2026. Generated with the built-in image-generation tool: photorealistic editorial English childcare scene, a caring Black British female practitioner in a sage cardigan supporting three diverse children aged around 4–7 as they play with wooden blocks and a train on a playroom rug; warm cream, teal and gold room, candid expressions, landscape 3:2 composition, no logos or text. Fictional illustrative scene, not actual staff, premises or children. Optimised to 1400 × 933 JPEG. Gentle CSS zoom with pause/play and reduced-motion support; this is an animated still photograph, not recorded video. The previous adult-care image is retained as an unused asset.
+
