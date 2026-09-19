@@ -58,7 +58,7 @@
       event.preventDefault();
       if (!form.reportValidity()) return;
       const data = new FormData(form);
-      const text = ['Dayspring Centre — conversation summary', 'Prepared locally. NOT submitted to dayspring.', '',
+      const text = ['Dayspring Centre — conversation summary', 'Prepared locally. NOT submitted to Dayspring Centre.', '',
         'Enquiry: ' + select.options[select.selectedIndex].text,
         ...[['name','Name'],['organisation','Organisation'],['phone','Telephone'],['email','Email'],['area','Area'],['preferred','Preferred contact'],['message','Discussion points']].map(([key,label]) => label + ': ' + (data.get(key) || 'Not provided')),
         '', 'Call +447519560119 to discuss the next step.'].join('\n');
